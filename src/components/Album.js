@@ -4,7 +4,7 @@ import classnames from "classnames";
 
 export default function Album(props) {
   const albumInfoClass = classnames("album__info", {
-    "album__info--explicit": props.collectionExplicitness === "explicit"
+    "album__info--explicit": props.collectionExplicitness === "explicit",
   });
 
   return (
